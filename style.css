@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#title {
+    margin-top: 2rem;
+}
+
+.pic-and-caption {
+    display: flex;
+    flex-direction: row
+}
+
+.division-title {
+    text-align : center;
+}
+
+.caption {
+    margin-left: 1rem;
+}
+
+.child {
+    flex-basis: 48%;
+    margin-left: 1rem;
+}
+
+#glass-icon {
+    font-size: 6em;
+}
+
+.list-no-bullets {
+    list-style: none;
+}
+
+.story {
+    border: .5rem solid black
+}
